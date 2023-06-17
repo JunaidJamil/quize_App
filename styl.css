@@ -31,7 +31,7 @@
  width: 100%;
 }
 #btns{
-    min-width: 513px;
+    width: 513px;
     height:45px;
     text-align: center;
     margin: 0.5rem;
@@ -39,7 +39,7 @@
     color: rgb(249, 0, 0);
 }
 button{
-    min-width: 510px;
+    width: 510px;
     height:35px;
     text-align: center;
     margin: 0.5rem;

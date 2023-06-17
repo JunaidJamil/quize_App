@@ -66,7 +66,7 @@ button:active {
 
 
 
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     .inpp{
         width: 250px;
     }
@@ -79,4 +79,4 @@ button:active {
     button,#btns {
       width: 250px;
     }
-  }
+  } */

@@ -44,7 +44,7 @@ let score =0;
    opt2.innerHTML = quiz[index].b;
    opt3.innerHTML = quiz[index].c;
    opt4.innerHTML = quiz[index].d;     
-    
+    document.getElementById("btns").disabled= true
    
    
   function next(){
@@ -63,7 +63,7 @@ let score =0;
      
      score+=5
      document.getElementById("score").innerHTML =`Your score is  ${score}` 
-     
+     document.getElementById("btns").disabled= false
    }
 else{
    

@@ -44,16 +44,16 @@ let score =0;
    opt2.innerHTML = quiz[index].b;
    opt3.innerHTML = quiz[index].c;
    opt4.innerHTML = quiz[index].d;     
-    document.getElementById("btns").disabled= true
    
    
-  function next(){
+   function next(){
      index++ ;
      ques.innerHTML = `${index+1})` +"  "+   quiz[index].que;
      opt1.innerHTML = quiz[index].a; 
      opt2.innerHTML = quiz[index].b;
      opt3.innerHTML = quiz[index].c;
      opt4.innerHTML = quiz[index].d; 
+     document.getElementById("btns").disabled= true
      
     }
 
